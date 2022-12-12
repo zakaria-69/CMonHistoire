@@ -43,6 +43,7 @@ body{
     height: 80vh;
     width: 100%;
   }
+
   
   .items .item {
     position: absolute;
@@ -221,4 +222,71 @@ body{
   }
 
    
+ }
+
+
+ /* option 1*/
+
+ .container-section-two{
+  width: 100%;
+  border: solid black 3px;
+  display: flex;
+
+
+ }
+
+ .left-block{
+  width: 40%;
+  border: solid blue 2px;
+ }
+ 
+
+ .right-block{
+  width: 60%;
+  border: solid red 3px;
+ }
+
+ .inverted-radius{
+  width: 10%;
+  margin-top: 10vh;
+  height: 90%;
+  border-radius: 0 0 100% 0;
+  border-right: solid grey 2px;
+ }
+
+ .left-block h2{
+  margin-left: 110%;
+  width: 100%;
+  text-decoration: underline;
+
+
+ }
+
+ .container-section-two ul{
+  border: solid red 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+ }
+
+ .container-section-two li{
+  list-style-type: none;
+  font-weight: 900;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+ }
+
+ .container-section-two p{
+  font-weight: 600;
+  border: solid green 3px;
+
+  
+ }
+
+.container-section-two span{
+  text-decoration: underline blue 2px;
+  text-transform: uppercase;
  }
