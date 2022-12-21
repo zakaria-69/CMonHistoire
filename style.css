@@ -57,6 +57,10 @@ body{
     z-index: -1;
     opacity: 0;
   }
+
+  .items a{
+    color: black;
+  }
   
   .item h2 {
     width: 100%;
@@ -319,4 +323,82 @@ body{
     font-weight: 600; 
     height: auto;
    }
+}
+
+
+                                    /*trois*/
+
+ .trois h2{
+  text-align: center;
+  text-decoration: underline;
+ }                                   
+
+.trois-container{
+  display: flex;
+  min-height: 100vh;
+}
+
+.trois-left-block{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.trois-left-block-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin: 2%;
+  text-align: center;
+}
+
+.trois-left-block-content p{
+  text-align: center;
+  font-weight: 500;
+}
+
+.trois-left-block h3{
+  text-align: center;
+  text-decoration: underline;
+  margin: 2%;
+}
+
+.trois-inverted-radius{
+ 
+  width: 20%;
+  border-radius: 0 100% 0 100%  ;
+  border-left: double grey 4px;
+}
+
+.trois-right-block{
+ width: 50%;
+}
+
+.satisfied-client{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.satisfied-client h4{
+  font-weight: 500;
+}
+
+.client{
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.guy_writting{
+  display: flex;
+  justify-content: center;
+}
+
+.guy_writting img{
+  width: 90%;
 }
